@@ -38,7 +38,7 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
     cd mvp-qualidade-seguranca-sistemas-inteligentes
 ```
 
-**b. Navegue até a pasta da API:
+**b. Navegue até a pasta da API:**
 ```bash 
     cd api 
 ```
@@ -85,12 +85,12 @@ Com o servidor rodando, você pode acessar as duas partes do sistema:
 
 -   **Interface Web do Usuário:** Para usar a aplicação e fazer diagnósticos, acesse a URL principal. Você será redirecionado para a interface.
     ```
-    [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+    http://127.0.0.1:5000/
     ```
 
 -   **Documentação da API (Swagger):** Para ver e testar os endpoints da API, acesse a rota `/docs`.
     ```
-    [http://127.0.0.1:5000/docs](http://127.0.0.1:5000/docs)
+    http://127.0.0.1:5000/docs
     ```
 
 A aplicação estará pronta para uso.
