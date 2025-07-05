@@ -34,7 +34,7 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
 
 **a. Clone o repositório (ou baixe os arquivos):**
 ```bash
-    git clone [https://github.com/lphillipe/mvp-qualidade-seguranca-sistemas-inteligentes.git]
+    git clone https://github.com/lphillipe/mvp-qualidade-seguranca-sistemas-inteligentes.git
     cd mvp-qualidade-seguranca-sistemas-inteligentes
 ```
 
