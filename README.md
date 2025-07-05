@@ -34,7 +34,7 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
 
 **a. Clone o repositório (ou baixe os arquivos):**
 ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
+    git clone [https://github.com/lphillipe/mvp-qualidade-seguranca-sistemas-inteligentes.git]
     cd mvp-qualidade-seguranca-sistemas-inteligentes
 ```
 
@@ -79,7 +79,7 @@ Certifique-se de que você está no diretório `api/` e que o ambiente virtual e
 
 O terminal irá indicar que o servidor está rodando geralmente em http://127.0.0.1:5000
 
-**b. Acesse o Front-end:**
+**b. Acesse a Documentação:**
 
 Abra seu navegador de internet e acesse a URL:
 
