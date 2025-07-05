@@ -79,11 +79,19 @@ Certifique-se de que você está no diretório `api/` e que o ambiente virtual e
 
 O terminal irá indicar que o servidor está rodando geralmente em http://127.0.0.1:5000
 
-**b. Acesse a Documentação:**
+**b. Acessando a Aplicação**
 
-Abra seu navegador de internet e acesse a URL:
+Com o servidor rodando, você pode acessar as duas partes do sistema:
 
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
+-   **Interface Web do Usuário:** Para usar a aplicação e fazer diagnósticos, acesse a URL principal. Você será redirecionado para a interface.
+    ```
+    [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+    ```
+
+-   **Documentação da API (Swagger):** Para ver e testar os endpoints da API, acesse a rota `/docs`.
+    ```
+    [http://127.0.0.1:5000/docs](http://127.0.0.1:5000/docs)
+    ```
 
 A aplicação estará pronta para uso.
 
