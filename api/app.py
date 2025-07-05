@@ -52,7 +52,7 @@ def predict(body: PacienteSchema):
 
 # Rota de listagem de pacientes
 @app.get('/pacientes', tags=[paciente_tag],
-         responses={"200": ListaPacientesSchema, "404": ErrorSchema})
+         responses={"200": PacienteViewSchema, "404": ErrorSchema})
 def get_pacientes():
     """Lista todos os registros de pacientes da base."""
     session = Session()
