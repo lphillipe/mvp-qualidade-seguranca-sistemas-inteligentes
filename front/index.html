@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Diagnóstico de doenças cardíacas API</title>
+</head>
+
+<body>
+    <div id="toast"></div>
+
+    <header>
+        <div class="title">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h1>Diagnóstico de doenças cardíacas API</h1>
+            <p>Um sistema inteligente para auxiliar na predição de doenças cardíacas.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="card" id="input-card">
+            <h2><i class="fa-solid fa-user-plus"></i> Adicionar Novo Paciente</h2>
+            <form id="patient-form">
+                <div class="form-grid">
+                    <input type="text" id="newInput" placeholder="Nome do Paciente" class="form-field">
+                    <input type="number" id="newAge" placeholder="Idade" class="form-field">
+                    <input type="number" id="newCp" placeholder="Dor no Peito (1-4)" class="form-field" title="Tipo de dor no peito (1 a 4)">
+                    <input type="number" id="newThalach" placeholder="Freq. Card. Máxima" class="form-field">
+                    <input type="number" id="newExang" placeholder="Angina (1=S, 0=N)" class="form-field" title="Angina induzida por exercício (1 = Sim, 0 = Não)">
+                    <input type="text" id="newOldpeak" placeholder="Depressão ST" class="form-field" title="Depressão do segmento ST induzida por exercício em relação ao repouso">
+                    <input type="number" id="newCa" placeholder="Nº de Vasos (0-3)" class="form-field" title="Número de vasos principais (0 a 3) coloridos por fluoroscopia">
+                    <input type="number" id="newThal" placeholder="Thalassemia (3,6,7)" class="form-field" title="3 = Normal; 6 = Defeito Fixo; 7 = Defeito Reversível">
+                </div>
+                <button type="submit" class="addBtn"><i class="fa-solid fa-magnifying-glass-chart"></i> Diagnosticar</button>
+            </form>
+        </div>
+
+        <div class="card" id="results-card">
+            <h2><i class="fa-solid fa-list-ul"></i> Pacientes Registrados</h2>
+            <div class="table-container">
+                <table id="myTable">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Dor Peito</th>
+                            <th>FC Máx.</th>
+                            <th>Angina</th>
+                            <th>Depr. ST</th>
+                            <th>Nº Vasos</th>
+                            <th>Thal.</th>
+                            <th>Diagnóstico</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
